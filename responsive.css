@@ -1,0 +1,55 @@
+/* 
+   Online Car Dealership — Responsive Stylesheet
+   Breakpoints: 1400 / 1200 / 992 / 768 / 576
+    */
+
+/* ===== <=1400px ===== */
+@media (max-width: 1400px) {
+  .hero-title { font-size: 3.2rem; }
+}
+
+/* ===== <=1200px ===== */
+@media (max-width: 1200px) {
+  .section-title { font-size: 2.1rem; }
+  .newsletter-section { padding: 44px; }
+}
+
+/* ===== <=992px ===== */
+@media (max-width: 992px) {
+  .hero-section { min-height: auto; padding-bottom: 60px; }
+  .hero-image-wrap { margin-top: 40px; }
+  .hero-stats-strip { gap: 24px; }
+  .stats-section { padding: 40px 20px; }
+  .stat-item .stat-value { font-size: 2.2rem; }
+  .navbar-collapse {
+    background: var(--color-card);
+    border-radius: var(--radius-sm);
+    padding: 16px;
+    margin-top: 10px;
+    box-shadow: var(--shadow-md);
+  }
+  .filter-sidebar { margin-bottom: 24px; }
+}
+
+/* ===== <=768px ===== */
+@media (max-width: 768px) {
+  .hero-title { font-size: 2.4rem; }
+  .hero-subtitle { font-size: 1rem; }
+  .glass-search-card { padding: 16px; }
+  .section-title { font-size: 1.8rem; }
+  .newsletter-section { padding: 30px; text-align: center; }
+  .offer-card { min-height: 220px; }
+  .form-card { padding: 26px; }
+  .page-hero { padding: calc(var(--header-height) + 30px) 0 40px; }
+  .compare-table { font-size: 0.85rem; }
+}
+
+/* ===== <=576px ===== */
+@media (max-width: 576px) {
+  .navbar-brand-ocd { font-size: 1rem; }
+  .hero-stats-strip { flex-wrap: wrap; row-gap: 16px; }
+  .car-card .car-img-wrap { height: 180px; }
+  #back-to-top { bottom: 16px; right: 16px; width: 42px; height: 42px; }
+  .stat-item .stat-value { font-size: 1.8rem; }
+  .stats-section .col-6 { margin-bottom: 20px; }
+}
